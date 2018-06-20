@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lib/animate.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="lib/jquery-3.1.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="js/insertion_Sort.js"></script>
+    <script src="js/main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Tajawal|Kalam" rel="stylesheet">
+    <title>Av2</title>
+    <style type="text/css">
+    	.title{color:white;background-color:#ffc107;}
+    	.btn:active, .btn.active {box-shadow: none;margin-bottom: -3px;margin-top: 3px;}
+    	body{
+    	font-family: 'Tajawal', sans-serif;
+    	}
+    	.text{
+    	font-family: 'Kalam', cursive;
+    	}
+    	.container{
+    		padding:10px;
+    		border-width:2px;  
+    		border-style:solid;
+    		border-radius:5px;
+    		border-color: #c2caef;
+    	}
+    </style>
+</head>
+<body>
+	<div class="container box-shadow" style="margin:auto;width:600px;"><br>
+		<h1 class="text title text-center animated finite slideInDown">Ordenação por Inserção</h1><br>
+		<div class="d-flex p-2 bd-highlight">
+
+			<div class="input-group mb-3">
+			  <input type="text" class="form-control" placeholder="Elemento a ser inserido" aria-label="Elemento" aria-describedby="basic-addon2" name="item" id="item">
+			  <div class="input-group-append">
+			    <button class="btn btn-outline-success animated finite pulseIn" id="insert" type="button">Adicionar</button>
+			    <button class="btn btn-outline-primary animated finite pulseIn" id="sort" type="button">Ordenar</button>
+			    <button class="btn btn-outline-danger animated finite pulseIn" id="clear" type="button">Limpar</button>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<br><div class="container box-shadow" style="margin:auto;width:600px;"><br>
+		<h3 class="text-center text">ELEMENTOS</h3>
+		<div class="row">
+		  <div class="col-md-6 offset-md-3 text-center">
+		  	<h3><span id="output" style="display:inline"></span></h3>
+		  </div>
+		</div>
+	</div>
+</body>
+</html>
